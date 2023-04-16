@@ -1,0 +1,235 @@
+.gallery {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.gallery img {
+width: 376px;
+height: 480px;
+margin: 10px;
+border: 1px solid black;
+}
+
+.gallery img:first-child {
+display: block;
+}
+
+.gallery img:not(:first-child) {
+display: none;
+}
+
+@keyframes gallery {
+0% {
+  opacity: 0;
+}
+25% {
+  opacity: 1;
+}
+75% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
+}
+
+.gallery img {
+animation-name: gallery;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+/*
+.slideshow-wrapper {
+  width: 376px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow {
+  display: flex;
+  width: calc(100% * 3);
+  animation: slide 10s infinite;
+}
+
+.slideshow img {
+  flex: 1;
+  object-fit: cover;
+  height: 400px;
+  transition: transform 1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.slideshow:hover img {
+  animation-play-state: paused;
+}*/
+/*new here*/
+
+
+
+/*
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 400px; */
+/* Change the height as needed *//*
+
+
+
+  overflow: hidden;
+}
+
+.slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: slide 5s infinite;
+}
+
+.slideshow img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+*/
+
+
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
+@import url("fontawesome-all.min.css");
+
+body{
+      padding: 0;
+      margin: 0;
+      background-color: black;
+  }
+
+*//*  h1{
+      margin-top: 50px;
+      margin-left: 510px;
+      font-size: 60px;
+      font-family: 'Karla', sans-serif;
+      font-weight: lighter;
+  }*//*
+*//*width="756.25" height="1008"*//*
+
+  .slider-frame{
+      overflow: hidden;
+      height: 600px;
+      width: 378.125px;
+      margin-left: 1100px;
+      margin-top: 50px;
+      margin-bottom: px;
+  }
+
+  *//*---------- SLIDE ANIMATION --------------*//*
+*//*
+
+*//*
+
+
+  @keyframes slide_animation{
+      10% {left:-12000px;}
+      10% {left:-12000px;}
+      10% {left: -12000px;}
+      10% {left: -12000px;}
+      10% {left: -9600px;}
+      10% {left: -9600px;}
+      10% {left: -8400px;}
+      10% {left: -8400px;}
+      10% {left: -7200px;}
+      10% {left: -7200px;}
+      10% {left: -6000px;}
+      10% {left: -6000px;}
+      10% {left: -4800px;}
+      10% {left: -4800px;}
+      10% {left: -3600px;}
+      10% {left: -3600px;}
+      10% {left: -2400px;}
+      10% {left: -2400px;}
+      10% {left: -1200px;}
+      10% {left: -1200px;}
+
+
+  }
+
+
+  @-webkit-keyframes slide_animation{
+      10% {left:-12000px;}
+      10% {left:-12000px;}
+      10% {left: -10800px;}
+      10% {left: -10800px;}
+      10% {left: -9600px;}
+      10% {left: -9600px;}
+      10% {left: -8400px;}
+      10% {left: -8400px;}
+      10% {left: -7200px;}
+      10% {left: -7200px;}
+      10% {left: -6000px;}
+      10% {left: -6000px;}
+      10% {left: -4800px;}
+      10% {left: -4800px;}
+      10% {left: -3600px;}
+      10% {left: -3600px;}
+      10% {left: -2400px;}
+      10% {left: -2400px;}
+      10% {left: -1200px;}
+      10% {left: -1200px;}
+  }
+
+
+
+
+  .slide-images{
+      width: 15600px;
+      height: 800px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 8s;
+      animation-duration: 8s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+
+  .img-container{
+      height: 800px;
+      width: 1200px;
+      position: relative;
+      float: left;
+  }
+
+
+*//*------------END OF ANIMATION PART-------*/-----
